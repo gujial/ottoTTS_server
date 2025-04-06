@@ -15,6 +15,7 @@ func main() {
 	ottoTTS.InitializeTTS()
 
 	r := gin.Default()
+	gin.SetMode(gin.ReleaseMode)
 
 	r.POST("/speak", func(c *gin.Context) {
 		var req MessageRequest
