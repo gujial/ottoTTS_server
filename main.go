@@ -50,6 +50,7 @@ func main() {
 
 		wavData, err := ottoTTS.Speech(req.Message)
 		if err != nil {
+			log.Println(err)
 			c.JSON(http.StatusInternalServerError, gin.H{"error": "failed to generate speech"})
 			return
 		}

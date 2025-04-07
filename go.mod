@@ -5,7 +5,7 @@ go 1.24
 require (
 	github.com/BurntSushi/toml v1.5.0
 	github.com/gin-gonic/gin v1.10.0
-	github.com/gujial/ottoTTS v0.0.0-20250406060814-6a33b7858808
+	github.com/gujial/ottoTTS v1.1.0
 )
 
 require (
